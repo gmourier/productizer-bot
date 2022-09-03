@@ -1,0 +1,35 @@
+{
+  "name": "productizer-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A dummy product manager",
+  "author": "Guillaume Mourier",
+  "license": "MIT",
+  "homepage": "https://github.com/",
+  "keywords": [
+    "probot",
+    "github",
+    "probot-app",
+    "product management",
+    "productboard"
+  ],
+  "scripts": {
+    "start": "probot run ./app.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "node-fetch": "2.0",
+    "probot": "^12.2.4"
+  },
+  "devDependencies": {
+    "jest": "^28.0.0",
+    "nock": "^13.0.5",
+    "smee-client": "^1.2.3"
+  },
+  "engines": {
+    "node": ">= 10.13.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}

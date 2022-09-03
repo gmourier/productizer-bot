@@ -1,0 +1,5 @@
+default_events:
+  - discussions
+default_permissions:
+  discussions: write
+  metadata: read
